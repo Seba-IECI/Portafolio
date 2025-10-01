@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]   # Se ejecuta cuando haces push a main
-  workflow_dispatch:       # También lo puedes disparar manualmente
+    branches: [ "main" ]
+  workflow_dispatch:
 
 permissions:
   contents: read
