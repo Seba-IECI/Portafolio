@@ -1,3 +1,42 @@
-body { font - family : system -ui , sans - serif ; margin : 0; }
-main { max - width : 880 px; margin : 2rem auto ; padding : 0 1 rem; }
-h1 { margin - bottom : .25 rem; }
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+  color: #007acc;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #005b99;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
