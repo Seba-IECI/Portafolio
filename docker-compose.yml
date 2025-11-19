@@ -1,0 +1,7 @@
+services:
+  portafolio:
+    build: .
+    container_name: portafolio-sebastian
+    ports:
+      - "8080:80"
+    restart: always
